@@ -20,18 +20,21 @@ st.set_page_config(
 st.markdown("""
     <style>
     .main-header {
-        font-size: 72px;
-        font-weight: bold;
-        color: #1f77b4;
-        text-align: center;
-        padding: 0px;
+        font-size: 85px !important; 
+        font-weight: 900 !important;  
+        color: #1f77b4 !important;
+        text-align: center !important;
+        padding: 0px !important;
+        line-height: 1.1 !important;
+        margin-top: -30px !important; 
     }
+
     .sub-header {
-        font-size: 28px;
-        font-weight: bold;
-        color: #2c3e50;
-        margin-top: 20px;
+        font-size: 32px !important;
+        font-weight: bold !important;
+        color: #2c3e50 !important;
     }
+
     .theory-box {
         background-color: #f0f2f6;
         padding: 20px;
@@ -39,12 +42,14 @@ st.markdown("""
         border-left: 5px solid #1f77b4;
         margin: 10px 0;
     }
+
     .highlight {
         background-color: #fff3cd;
         padding: 10px;
         border-radius: 5px;
         margin: 10px 0;
     }
+
     .metric-box {
         background-color: #e8f4f8;
         padding: 15px;
