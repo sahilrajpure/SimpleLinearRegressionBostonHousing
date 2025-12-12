@@ -159,9 +159,3 @@ For questions or feedback:
 ---
 
 If you find this project helpful, please give it a star!
-## Screenshots
-
-![App Screenshot](C:\Users\Sahil\Downloads\home.png)
-
-
-## home
