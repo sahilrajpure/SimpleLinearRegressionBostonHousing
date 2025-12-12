@@ -12,8 +12,7 @@ warnings.filterwarnings('ignore')
 st.set_page_config(
     page_title="Simple Linear Regression",
     page_icon="📊",
-    layout="wide",
-    font-size: 36px, 
+    layout="wide", 
     initial_sidebar_state="expanded"
 )
 
@@ -25,7 +24,7 @@ st.markdown("""
         font-weight: bold;
         color: #1f77b4;
         text-align: center;
-        padding: 20px;
+        padding: 0px;
     }
     .sub-header {
         font-size: 28px;
