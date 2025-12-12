@@ -13,7 +13,7 @@ st.set_page_config(
     page_title="Simple Linear Regression",
     page_icon="📊",
     layout="wide",
-    font-size: 36px; 
+    font-size: 36px, 
     initial_sidebar_state="expanded"
 )
 
