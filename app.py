@@ -16,23 +16,35 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS
+# CSS
 st.markdown("""
     <style>
     .main-header {
-        font-size: 85px !important; 
-        font-weight: 900 !important;  
+        font-size: 60px !important;
+        font-weight: 800 !important;
         color: #1f77b4 !important;
         text-align: center !important;
-        padding: 0px !important;
         line-height: 1.1 !important;
-        margin-top: -30px !important; 
+        margin-top: -10px !important;
+    }
+
+    @media (max-width: 768px) {
+        .main-header {
+            font-size: 38px !important;
+            margin-top: 0px !important;
+        }
     }
 
     .sub-header {
-        font-size: 32px !important;
+        font-size: 28px !important;
         font-weight: bold !important;
         color: #2c3e50 !important;
+    }
+
+    @media (max-width: 768px) {
+        .sub-header {
+            font-size: 22px !important;
+        }
     }
 
     .theory-box {
